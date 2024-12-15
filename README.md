@@ -9,4 +9,5 @@ Location-Based Social Networks (LBSNs) offer a rich dataset of user activity at 
 ![image](https://github.com/user-attachments/assets/1ae6f3a4-ea3c-4a08-8c27-4c7a7cc7f431)
 
 # Running
-Run the run.py.
+（To cluster time, please run the time_process.py）
+Run the run.py
