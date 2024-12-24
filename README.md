@@ -1,7 +1,14 @@
 # AAAI2025_iPCM
 The official PyTorch implementation for 2025-AAAI-Integrating Personalized Spatio-Temporal Clustering for Next POI Recommendation.
 
-If you have any questions, please feel free to issue or contact me by email. If you use our codes and datasets in your research, please cite.
+If you have any questions, please feel free to issue or contact me by email. If you use our codes and datasets in your research, please cite:
+# Citation
+@inproceedings{chaosong2025integrating,
+    title =    {Integrating Personalized Spatio-Temporal Clustering for Next POI Recommendation},
+    author =    {Chao Song, Zheng Ren and Li Lu},
+    year =    {2025},
+    booktitle = {The Thirty-Ninth {AAAI} Conference on Artificial Intelligence ({AAAI-25})},
+}
 
 # Overview
 Location-Based Social Networks (LBSNs) offer a rich dataset of user activity at Points-of-Interest (POIs), making next POI recommendation a key task. Traditional algorithms face challenges due to broad searching scopes, affecting recommendation accuracy. Users tend to visit nearby POIs and show temporal concentration in their activities, reflecting personalized spatio-temporal clustering. However, individual user data may be insufficient to capture these clustering effects for personalized recommendations. In this paper, we propose an integrated Personalized Spatio-Temporal Clustering Model (iPCM) for next POI recommendation. The model learns this kind of personalized spatio-temporal clustering effect by using global historical trajectory data in conjunction with user feature embeddings. It integrates the features of personalized spatio-temporal clustering with the user’s trajectory, and completes the user’s POI recommendation through a Transformer encoding and MLP decoding. To enhance the accuracy of predictions, we add a module of probability adjustment. The experimental results on multiple datasets show that with the help of personalized spatio-temporal clustering, the proposed iPCM is superior to existing methods in various evaluation metrics.
